@@ -1,0 +1,52 @@
+.menu ul{
+	list-style-type: none;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.menu li{
+	display: inline;
+	padding: 100px;
+}
+
+.tituloGeneral{
+	text-align: center;
+}
+
+.titulos{
+	text-align: center;
+}
+
+.subtitulos{
+	font-size: 30px;
+}
+
+
+.artImagen1{
+	float: left;
+}
+
+.artImagen2{
+	float: left;
+}
+
+/*.articulos{
+	border-collapse: collapse;
+	border: 1px solid red;
+}*/
+.tiendaImagen1{
+	float: right;
+}
+
+.catPrecios{
+	text-align: center;
+	font-size: 40px;
+	color: #993CFF;
+}
+.catDescripcion{
+	font-style: oblique;
+}
+tr:nth-child(odd){
+	background-color: #9FC9FF;
+}

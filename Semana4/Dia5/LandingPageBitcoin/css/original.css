@@ -1,0 +1,2336 @@
+
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+bitcoin.com homepage style sheet
+
+******************************************************************************************************************************************************
+******************************************************************************************************************************************************/
+
+
+
+
+@font-face {
+    font-family: 'museo_sans_rounded900';
+    src: url('fonts/museosansrounded-900.svg') format('svg'),
+    	 url('fonts/museosansrounded-900.ttf') format('ttf'),
+    	 url('fonts/museosansrounded-900.woff2') format('woff2'),
+         url('fonts/museosansrounded-900.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_sans_rounded300';
+    src: url('fonts/museosansrounded-300.svg') format('svg'),
+    	 url('fonts/museosansrounded-300.woff2') format('woff2'),
+         url('fonts/museosansrounded-300.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_sans_rounded500';
+    src: url('fonts/museosansrounded-500.svg') format('svg'),
+    	 url('fonts/museosansrounded-500.woff2') format('woff2'),
+         url('fonts/museosansrounded-500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_sans_rounded700';
+    src: url('fonts/museosansrounded-700.svg') format('svg'),
+    	 url('fonts/museosansrounded-700.ttf') format('ttf'),
+    	 url('fonts/museosansrounded-700.woff2') format('woff2'),
+         url('fonts/museosansrounded-700.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+body {
+	font-family: 'museo_sans_rounded300', sans-serif;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x:hidden;
+	 width: 100%;
+}
+
+.container {
+	width: 90%;
+	max-width: 1400px;
+}
+
+h1 {
+	font-family: 'museo_sans_rounded700', sans-serif;
+	font-size: 35px;
+	font-weight: 700; 
+	color: #fab915;
+	margin-bottom: 20px;
+}
+
+.h1-white {
+	color: #fff;
+}
+
+.h1-white-custom {
+	color: #fff;
+}
+.h1-white-custom:after {
+    content:' ';
+    display:block;
+    border:4px solid #000000;
+    color: #000000;
+    width: 80px;
+    margin-top: 10px;
+}
+@media (max-width: 992px) {
+	.h1-white-custom {
+		display:none;
+	}
+	.buy-custom-right {
+	padding-left:15px !important;
+  }
+}
+.buy-custom-right {
+	padding-left:65px;
+}
+
+h1:after {
+    content:' ';
+    display:block;
+    border:4px solid #fab915;
+    color: #fab915;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.h1-right {
+	color: #fff;
+	text-align: right;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.23);
+}
+
+.h1-right:after {
+    content:' ';
+    display:block;
+    border:4px solid #fff;
+    color: #fab915;
+    width: 80px;
+    margin-top: 10px;
+    position: absolute;
+    right: 15px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.23);
+}
+
+h2 {
+	font-family: 'museo_sans_rounded300', sans-serif;
+	font-size: 35px;
+	font-weight: 300; 
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-family: 'museo_sans_rounded300', sans-serif;
+	font-size: 25px;
+	font-weight: 300; 
+	color: #8b8b8b;
+}
+
+p {
+	font-family: 'museo_sans_rounded300', sans-serif;
+	color: #8b8b8b;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.news-section .center-h1 {
+	padding-right: 0;
+}
+
+a, a:hover {
+  cursor: pointer;
+  color: #fab915;
+}
+
+.section-1 {
+	background-image: url(../img/wallet-mining-bg.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-1 h1 {
+	margin-bottom: 12px;
+	margin-top: 0;
+}
+
+.section-1-content {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 450px;
+
+}
+
+.section-1-content-2 {
+    display: flex;
+	flex-direction: column;
+	justify-content: top;
+	height: 450px;
+	padding-top: 70px;
+	text-align: right;
+}
+
+.section-1-p {
+	font-size: 30px;
+	font-weight: 700;
+	color: #a8a8a8;
+}
+
+.section-1-mining-p {
+	font-size: 30px;
+	font-weight: 700;
+	color: #3b3d3c;
+	margin-top: 24px;
+	line-height: 1.2em;
+	
+}
+
+.section-1-mining-p2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #3b3d3c;
+	margin-bottom: 20px;
+	
+}
+
+.wallet-p {
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: #fab915;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+.wallet-pool-ctn {
+	height: 300px;
+	width: 25%;
+	position: absolute;
+	background-image: url(../img/wallet-mining.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+/*.wallet-pool-img {
+	background-image: url(../img/wallet-mining.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 300px;
+}*/
+
+.os-icons {
+	height: 40px; 
+	margin-bottom: 0px;
+	margin-right: 25px;
+	margin-top: 40px;
+}
+
+.pool-icon-ctn {
+	margin-top: 12px;
+	padding-right: 12px;
+}
+.pool-icon {
+	height: 50px;
+}
+
+.icon-container {
+
+}
+
+#wallets-created {
+	font-size: 20px;
+}
+
+.wallet-img {
+	
+	display: none;
+}
+
+.laptop-img {
+	
+	display: none;
+}
+
+.wallet-img-ctn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 450px;
+	margin: 0;
+	padding: 0;
+	/*background-color: rgba(255, 0, 0, 0.2);*/
+}
+
+.phn-img, .mine-img {
+	position: absolute;
+}
+
+.phn-img {
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 200px;
+	top: 120px;
+	z-index: 9999;
+}
+
+.mine-img {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 80px;
+	right: 0;
+	top: 100px;
+}
+
+
+
+.center-h1 a h1 {
+	text-align: center;
+}
+
+.h1-links h1 {
+	display: inline-block;
+}
+
+.h1-links:hover {
+	text-decoration: none;
+}
+
+.h1-links h1:hover {
+	text-decoration: none;
+	color: #fab915;
+}
+
+.h1-links:hover .header-arrow {
+	background-image: url(../img/arrow-in-circle-gold.png);
+}
+.h1-links:hover .qs-header-arrow {
+	background-image: url(../img/arrow-in-circle-gold.png);
+}
+
+.btn {
+	background: none;
+}
+
+.btn-primary{
+	font-family: 'museo_sans_rounded500', sans-serif;
+	color: #fff!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	border: 3px solid #fff!important;
+	padding-left: 0px!important;
+	padding-right: 25px!important;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 100px;
+	max-width: 250px;
+	background-image: url(../img/arrow-in-circle-white.png);
+	background-size: auto 60%;
+	background-repeat: no-repeat;
+	background-position: 4% 50%;
+}
+
+.btn-primary:hover {
+	background-color: #fff!important;
+	background-image: url(../img/arrow-in-circle-gold.png);
+	color: #fab915!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.btn-gray{
+	font-family: 'museo_sans_rounded500', sans-serif;
+	color: #fff!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	border: 3px solid #3b3d3c!important;
+	padding-left: 50px!important;
+	padding-right: 25px!important;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 100px;
+	background-image: url(../img/arrow-in-circle-white.png);
+	background-size: auto 60%;
+	background-repeat: no-repeat;
+	background-position: 4% 50%;
+	display: inline-block;
+	background-color: #3b3d3c!important;
+}
+
+.btn-gray:hover {
+	color: #fff!important;
+	background-color: #212322!important;
+	border-color: #212322 !important;
+	background-image: url(../img/arrow-in-circle-white.png);
+	transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.btn-2{
+	font-family: 'museo_sans_rounded500', sans-serif;
+	color: #fab915!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	border: 3px solid #fab915!important;
+	padding-left: 60px!important;
+	padding-right: 40px!important;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 100px;
+	max-width: 250px;
+	background-image: url(../img/arrow-in-circle-gold.png);
+	background-size: auto 60%;
+	background-repeat: no-repeat;
+	background-position: 8% 50%;
+}
+
+.btn-2:hover {
+	background-color: #fab915!important;
+	background-image: url(../img/arrow-in-circle-black.png);
+	color: #000!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.btn-4{
+	
+}
+
+.btn-4:hover {
+	background-image: url(../img/arrow-in-circle-white.png);
+	color: #fff !important;
+}
+
+.btn-3 {
+	font-family: 'museo_sans_rounded500', sans-serif;
+	color: #000!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	border: 3px solid #000!important;
+	padding-left: 60px!important;
+	padding-right: 40px!important;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 100px;
+	max-width: 250px;
+	background-image: url(../img/arrow-in-circle-black.png);
+	background-size: auto 60%;
+	background-repeat: no-repeat;
+	background-position: 8% 50%;
+}
+
+.btn-3:hover {
+	background-color: #000!important;
+	background-image: url(../img/arrow-in-circle-gold.png);
+	color: #fab915!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.satoshi-pulse-section {
+	padding-bottom: 25px;
+	background-color: #fff;
+	padding-top: 25px;
+}
+
+.new-box {
+	font-size: 12px;
+	color: #fff;
+	padding: 5px 15px;
+	background-color: #fab915;
+	border-radius: 50px;
+	display: inline-block;
+	letter-spacing: 2px;
+	vertical-align: top;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(250,185,21,1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(250,185,21,1);
+box-shadow: 0px 0px 15px 0px rgba(250,185,21,1);
+margin-right: 15px;
+}
+
+.middle {
+	display:flex;
+	align-items:center;
+}
+
+.satoshi-logo {
+	background-image: url(../img/satoshi-pulse-logo.png);
+	width: 350px;
+	height: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.satoshi-logo-2 {
+	width: 100%;
+	display: inline-block;
+	
+}
+
+.satoshi-p {
+	padding: 0 0px 0 20px;
+	margin-bottom: 0;
+}
+
+.hidden, .news-hidden {
+	visibility: hidden;
+}
+
+.hidden-2 {
+	display: none;
+}
+
+.news-section{
+	background-color: #f5f5f5;
+	padding-bottom: 40px;
+}
+
+.news-header {
+	color: #8b8b8b;
+	margin-top: 30px;
+}
+
+.header-arrow {
+	height: 36px;
+	width: 36px;
+	background-image: url(../img/arrow-in-circle-gray.png);
+	background-size: contain;
+	display: inline-block;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+.news-tab-container {
+	text-align: right;
+	margin-top: 52px;
+}
+
+.news-tab {
+	font-family: 'museo_sans_rounded500', sans-serif;
+	padding: 5px 10px;
+	margin-left: 5px;
+	border: 2px solid #8b8b8b; 
+	font-size: 14px;
+	font-weight: 500; 
+	display: inline-block;
+	color: #8b8b8b;
+	text-align: center;
+	cursor: pointer;
+}
+
+.news-tab:hover {
+	border: 2px solid #fab915; 
+	color: #fab915;
+	transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.news-tab-active {
+	border: 2px solid #fab915; 
+	color: #fff !important;
+	background-color: #fab915;
+	transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.news-tile {
+	padding: 2px 10px 0 10px;
+	margin: 0;
+}
+
+.main-news-tile {
+	width: 100%;
+	height: 250px;
+	background-color: #8b8b8b;
+	padding: 0;
+	overflow: hidden;
+}
+
+.news-1-1, .news-2-1, .news-3-1, .news-4-1, .news-1, .news-2, .news-3, .news-4, .news-5, .news-6, .news-7, .news-8, .news-9, .news-10, .news-11, .news-12, .news-13, .news-14, .news-15, .news-16, .news-17, .news-18, .news-19, .news-20 {
+	width: 100%;
+	height: 250px;
+	background-size: contain;
+	background-position: center;
+	 -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    background-color: #fff;
+    background-image: url(../img/loading-news.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.main-news-tile:hover .news-1-1, .main-news-tile:hover .news-2-1, .main-news-tile:hover .news-3-1, .main-news-tile:hover .news-4-1, .main-news-tile:hover .news-1, .main-news-tile:hover .news-2, .main-news-tile:hover .news-3, .main-news-tile:hover .news-4, .main-news-tile:hover .news-5, .main-news-tile:hover .news-6, .main-news-tile:hover .news-7, .main-news-tile:hover .news-8, .main-news-tile:hover .news-9, .main-news-tile:hover .news-10, .main-news-tile:hover .news-11, .main-news-tile:hover .news-12 {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.news-headline {
+	font-family: 'museo_sans_rounded700', sans-serif;
+	bottom: 15px;
+	text-align: left;
+	position: absolute;
+	color: #000;
+	background-color: #fff;
+	font-size: 18px;
+	margin: 0 20px 0 10px;
+	padding: 15px 15px 15px 15px;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.news-arrow {
+	width: 20px;
+	height: 50px;
+	position: relative;
+	top: 102px;
+	left: 100%;
+	background-image: url(../img/news-arrow.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.news-arrow:hover {
+	background-image: url(../img/news-arrow-gold.png);
+}
+
+
+
+.timestamp {
+	padding: 0 15px 0 15px;
+	margin: 0;
+	font-size: 11px;
+	color: #000;
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	top: -25px;
+	line-height: 25px;
+	font-weight: 300;
+}
+
+.main-news-tile:hover .news-headline {
+	text-decoration: none;
+	background-color: #fab915;
+}
+
+.bch-section {
+	background-color: #303030;
+	background-image: url(../img/bch-background.jpg), linear-gradient(90deg, #191919 50%, #303030 50%);
+	background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    background-size: contain;
+    overflow: hidden;
+    position: relative;
+}
+
+.bch-section-p {
+	font-weight: 300;
+	font-size: 20px;
+	color: #8b8b8b;
+	padding-right: 30px;
+}
+
+.bch-p-inline {
+	display: inline-block;
+}
+
+
+
+
+.bch-logo-0 {
+	padding-left: 30px;
+	margin-top: -20px;
+}
+
+.bch-logo-1 {
+	width: 100%;
+	height: 110px;
+	display: inline-block;
+	padding-left: 155px;
+	background-image: url(../img/bitcoincash-logo-sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	display: flex;
+	align-items: center;
+	z-index: 99999;
+	position: relative;
+}
+
+.bch-arrow {
+	height: 28px;
+	width: 28px;
+	background-image: url(../img/arrow-in-circle-sprite.png);
+	background-size: 28px 56px;
+	background-position: 0 0;
+	display: inline-block;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	 
+}
+
+.bch-logo-2 {
+	line-height: 30px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 300;
+	font-size: 28px;
+}
+
+.quickstart-section {
+	width: 100%;
+	background-color:#e1e1e1; 
+}
+
+.buy-bitcoin-btn {
+	background-color: #e1e1e1;
+	padding: 25px 0 17px;
+	text-align: center;
+	transition: all 0.15s ease-in-out;
+	border-left: 2px solid #fff;
+}
+
+.buy-bitcoin-btn-right {
+	border-right: 2px solid #fff;
+}
+
+.buy-btn-text {
+	font-size: 20px;
+	color: #303030;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+	padding-top: 2px;
+	transition: all 0.15s ease-in-out;
+}
+
+.buy-btn-arrow {
+	background-image: url(../img/arrow-in-circle-sprite-2.png);
+	background-size: 28px 56px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 28px;
+	width: 28px;
+	margin-left: 10px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.buy-bitcoin-btn:hover  {
+	background-color: #fab915;
+}
+
+.buy-bitcoin-btn:hover .buy-btn-text  {
+	color: #fff;
+}
+
+.buy-bitcoin-btn:hover .buy-btn-arrow  {
+	background-position: 0 -28px;
+}
+
+
+/*.bch-logo-1::after {
+        content: "";
+        background-image: url(../img/bitcoincash-logo-sprite.png);
+        background-position: 0 -110px;
+        background-repeat: no-repeat;
+        opacity: 0;
+        -webkit-transition: opacity 0.15s;
+        -moz-transition: opacity 0.15s;
+        -o-transition: opacity 0.15s;
+        transition: opacity 0.15s;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .bch-logo-1:hover::after {
+        opacity: 1;
+        -webkit-transition: opacity 0.15s;
+        -moz-transition: opacity 0.15s;
+        -o-transition: opacity 0.15s;
+        transition: opacity 0.15s;
+    }*/
+
+
+
+      
+
+.bch-logo-1:hover {
+	background-image: url(../img/bitcoincash-logo-sprite.png);
+	background-position: 0 -110px;
+}
+
+.bch-logo-1:hover .bch-logo-2 {
+	color: #ed8d00;
+	text-decoration: none;
+}
+
+.bch-logo-0 a:hover {
+	text-decoration: none;
+}
+
+.bch-logo-1:hover .bch-arrow {
+	background-image: url(../img/arrow-in-circle-sprite.png);
+	background-size: 28px 56px;
+	background-position: 0 -28px;
+}
+
+.bch-bgrd-img-div {
+	width: 35%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 5%;
+	overflow: hidden;
+	 -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.bch-bgrd-img {
+	height: 100%;
+	background-image: url(../img/bch-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bch-logo-0:hover + .bch-bgrd-img-div  {
+	-ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.get-started-section {
+	padding-bottom: 50px;
+}
+
+.knowledge-level {
+	font-family: 'museo_sans_rounded500', sans-serif;
+	background-image: url(../img/arrow-in-circle-gray.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 20px 0 20px 50px;
+	color: #8b8b8b;
+	background-position: left center;
+	cursor: pointer;
+	width: 100%;
+}
+
+.knowledge-line {
+	width: 100%;
+	height: 1px;
+	background-color: #fab915;
+	position: absolute;
+	margin-top: 10px;
+	border-right: 45px solid #fff;
+}
+
+.knowledge-level-active {
+	background-image: url(../img/arrow-in-circle-gold.png);
+	color: #fab915;
+}
+
+.knowledge-level:hover {
+	background-image: url(../img/arrow-in-circle-gold.png);
+	color: #fab915;
+}
+
+.card-padding {
+	padding: 20px 0 0 20px;
+}
+
+.cards {
+	border: 1px solid #fab915;
+	background-color: #fff;
+	text-align: center;
+	padding: 25px 25px 10px 25px;
+	cursor: pointer;
+	height: 100%;
+}
+
+.card-img {
+	height: 70px;
+	margin-bottom: 0px;
+}
+
+.card-title {
+	color: #fab915;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.cards p {
+	font-family: 'museo_sans_rounded500', sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.cards p a {
+	font-family: 'museo_sans_rounded700', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.learn-section {
+	background-image: url(../img/new/background-less-angle.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.bitcoin-academy {
+	width: 250px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.sumo-container {
+	max-width: 537px;
+	margin: auto;
+}
+
+.academy-title {
+	font-family: 'museo_sans_rounded500', sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+	color: #fff;
+}
+
+.academy-p {
+	font-weight: 300;
+	font-size: 20px;
+	color: #8b8b8b;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.academy-p-2 {
+	font-family: 'museo_sans_rounded700', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fab915;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.basics-p {
+	font-family: 'museo_sans_rounded700', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.academy-section {
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 90px;
+}
+
+.basics-course {
+	text-align: center;
+}
+
+.knowledge-base-section {
+	padding-bottom: 50px;
+}
+
+.kb-header {
+	margin-bottom: 35px;
+}
+
+.main-kbt {
+	width: 100%;
+	height: 250px;
+	background-color: #8b8b8b;
+	padding: 0;
+	overflow: hidden;
+}
+
+.side-kbt {
+	width: 100%;
+	height: 115px;
+	background-color: #f5f5f5;
+	padding: 0;
+	overflow: hidden;
+}
+
+.side-kbt:hover {
+	background-color: #fab915;
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.kb-1, .kb-2, .kb-7  {
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	 -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.kb-3, .kb-4, .kb-5, .kb-6 {
+	width: 200px;
+	height: 115px;
+	background-size: cover;
+	background-position: center;
+	 -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.kb-1  {
+	background-image: url(../img/what-is-bitcoin-story.jpg);
+}
+
+.kb-2  {
+	background-image: url(../img/bitcoin-chip-1.jpg);
+}
+
+.kb-3  {
+	background-image: url(../img/mining1.jpg);
+}
+
+.kb-4  {
+	background-image: url(../img/credcardpurchase.jpg);
+}
+
+.kb-5  {
+	background-image: url(../img/chips.jpg);
+}
+
+.kb-6  {
+	background-image: url(../img/bitcoin-white-paper-story.jpg);
+}
+
+.kb-7  {
+	background-image: url(../img/the-rise-and-rise-of-bitcoin.jpg);
+	background-position: 50% 40%;
+}
+
+.main-kbt:hover .kb-1, .main-kbt:hover .kb-2, .side-kbt:hover .kb-3, .side-kbt:hover .kb-4, .side-kbt:hover .kb-5, .side-kbt:hover .kb-6, .main-kbt:hover .kb-7  {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.kbt-headline {
+	font-family: 'museo_sans_rounded700', sans-serif;
+	bottom: 15px;
+	text-align: left;
+	position: absolute;
+	color: #000;
+	background-color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0 20px 0 15px;
+	padding: 15px 15px 15px 15px;
+	line-height: 20px;
+}
+
+.bch-title {
+	font-family: 'museo_sans_rounded700', sans-serif;
+	bottom: 15px;
+	text-align: left;
+	position: absolute;
+	color: #000;
+	background-color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0 20px 0 15px;
+	padding: 15px 15px 15px 15px;
+	line-height: 20px;
+}
+
+.kbt-headline2 {
+	font-family: 'museo_sans_rounded700', sans-serif;
+	color: #000;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+.bch-p {
+	font-size: 17px;
+	font-weight: 500;
+	padding: 0;
+	margin: 5px 0 0 0;
+	color: #000;
+}
+
+.side-kbt-headline {
+	font-family: 'museo_sans_rounded700', sans-serif;
+	text-align: left;
+	/*top: 42%;
+	position: absolute;*/
+	color: #000;
+	font-size: 18px;
+	font-weight: 700;
+	/*margin: 0 30px 0 230px;*/
+	height: 115px;
+	width: 100%;
+	margin-top: -115px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 230px;
+}
+
+.main-kbt:hover .kbt-headline, .side-kbt:hover .side-kbt-headline {
+	
+	 -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.main-kbt:hover .kbt-headline, .main-kbt:hover .bch-title{
+	background-color: #fab915;
+	 -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.no-padding {
+	padding: 0;
+	margin: 0;
+}
+
+.kbt-tile-1 {
+	margin-bottom: 20px;
+	padding-right: 10px;
+}
+
+.kbt-tile-2 {
+	padding-right: 10px;
+}
+
+.kbt-tile-3 {
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+
+.charts-section {
+	background-color: #1d1e1f;
+	padding-bottom: 60px;
+	padding-top: 15px;
+}
+
+
+
+.charts {
+	text-align: center;
+	border-right: 1px solid #303030;
+}
+
+.chart-headers {
+	font-size: 40px;
+	padding: 0;
+	margin: 0;
+	font-weight: 300;
+}
+
+.charts p {
+	font-size: 22px;
+	padding: 0;
+	margin-top: -15px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.charts a {
+	text-decoration: none;
+}
+
+.charts a:hover .chart-headers {
+	color: #dca210;
+}
+
+.transactions-col {
+	border: none;
+}
+
+.embed-graph {
+	margin: auto;
+	height: 230px;
+	overflow: hidden;
+	position: relative;
+	max-width: 400px;
+	margin-left: 15px;
+}
+
+.chart-ad {
+	font-size: 14px;
+	color: #8b8b8b;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.chart-ad a {
+	color: #8b8b8b;
+	text-decoration: none;
+	text-align: center;
+}
+
+.chart-ad a:hover {
+	color: #fab915;
+}
+
+
+.product-tile-container-1 {
+	margin: 0;
+	width: 46%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.product-tile-container-2 {
+	padding-right: 15px;
+	margin: 0;
+	width: 27%;
+	float: left;
+}
+
+.product-tile-container-3 {
+	margin: 0;
+	width: 27%;
+	float: left;
+	padding-right: 15px;
+}
+
+
+.mining-card {
+	width: 100%;
+	padding: 50px 30px 50px 30px;
+	background: linear-gradient(rgba(250, 185, 21, 0.9), rgba(250, 185, 21, 0.9)),
+                rgba(250, 185, 21, 0.9) url('../img/server_farm.jpg') no-repeat center;
+	background-size: auto 100%;
+	background-position: center;
+	text-align: center;
+	height: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+.games-card, .forum-card {
+	width: 100%;
+	padding: 50px 30px 50px 30px;
+	background: linear-gradient(rgba(48, 48, 48, 0.9), rgba(48, 48, 48, 0.9)),
+                rgba(48, 48, 48, 0.9) url('../img/games-2.jpg') no-repeat center;
+	background-size: auto 100%;
+	background-position: center;
+	text-align: center;
+	height: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+.forum-card {
+	background: linear-gradient(rgba(48, 48, 48, 0.90), rgba(48, 48, 48, 0.90)),
+                rgba(48, 48, 48, 0.90) url('../img/forum.jpg') no-repeat center;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-size: auto 100%;
+}
+
+.mining-card:hover, .games-card:hover, .forum-card:hover {
+	background-size: auto 110%;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+.mining-card h3 {
+	font-size: 25px;
+	color: #000;
+	line-height: 28px;
+}
+
+.mining-card p {
+	font-family: 'museo_sans_rounded500', sans-serif;
+	font-size: 17px;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.games-card h3, .forum-card h3 {
+	font-size: 25px;
+	color: #fab915;
+	line-height: 28px;
+}
+
+.games-card p, .forum-card p {
+	font-family: 'museo_sans_rounded500', sans-serif;
+	font-size: 17px;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.mc-image {
+	height: 130px;
+}
+
+/*.mc-div {
+	padding-right: 10px;
+}
+
+.gc-div {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.fc-div {
+	padding-left: 10px;
+}*/
+
+
+
+.arrow {
+ box-sizing:border-box;
+ width:0;
+ height:0;
+ border-style:solid;
+ transition:left 0.5s ease-out;
+ display:none;
+ margin:0 0 0.2em 0.1em;
+}
+.arrow.up,.arrow.down {
+ display:inline-block
+}
+.arrow.up {
+ border-width:0 .2em .3em .2em;
+ border-color:transparent transparent #8fdc34 transparent
+}
+.arrow.down {
+ border-width:.3em .2em 0 .2em;
+ border-color:#f33535 transparent transparent transparent
+}
+
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************/
+
+
+
+
+.btn-primary-footer{
+	background-color: #fab915!important;
+	color: #fff!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	border: 2px solid #fab915!important;
+	font-size: 21px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+
+}
+
+.btn-primary-footer:hover {
+	background-color: transparent!important;
+	color: #fab915!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	
+	transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+
+
+.footer {
+	width: 100%;
+	background-color: #000;
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	background-image: url(../img/footer_bg.jpg);
+	background-repeat: no-repeat;
+  
+    background-size: cover;
+}
+
+.footer-col {
+	font-size: 16px;
+	color: #ccc;
+	line-height: 25px;
+
+}
+
+
+
+.footer-header {
+	font-size: 21px; 
+	color: #fab915;
+	margin-top: 0;
+	margin-bottom: 15px;
+	}
+
+.footer-col a {
+	color: #ccc;
+}
+
+.footer-col a:hover {
+	color: #fab915;
+}
+
+.btm-footer {
+	border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.news {
+	padding: 0;
+	margin-bottom: 40px;
+}
+
+.btcwdgt-news {
+	width: 100%;
+	max-width:none;
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    background: #8b8b8b;
+}
+
+.social-icons {
+	padding: 10px 0 0 0;
+}
+
+.icon-display {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.fb-icon, .twitter-icon, .rs-icon {
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+}
+
+.fb-icon {
+	background-image: url(../img/facebook-gray.png);
+}
+
+.twitter-icon {
+	background-image: url(../img/twitter-gray.png);	
+}
+
+.rs-icon {
+	background-image: url(../img/rs-feed-gray.png);
+}
+
+.fb-icon:hover {
+	background-image: url(../img/facebook-gold.png);
+}
+
+.twitter-icon:hover {
+	background-image: url(../img/twitter-gold.png);	
+}
+
+.rs-icon:hover {
+	background-image: url(../img/rs-feed-gold.png);
+}
+
+#email-footer {
+	border: 1px solid #8b8b8b;
+	background-color: #000;
+	color: #8b8b8b;
+}
+
+.footer-email-form {
+	padding-top: 18px;
+	margin-bottom: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.email-footer {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.footer-dropdown {
+	border: 1px solid #8b8b8b;
+	background-color: #000;
+	color: #8b8b8b;
+	font-size: 14px;
+	text-align: left;
+	width: 100%;
+}
+
+.custom-dropdown:hover, .custom-dropdown:active {
+	border: 1px solid #fab915;
+	background-color: #fab915;
+	color: #fff;
+}
+
+.btn-primary2 {
+	background: none !important;
+	color: #8b8b8b!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	border: 1px solid #8b8b8b!important;
+	font-size: 14px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	width: 100%;
+	border-radius: 4px;
+
+}
+
+.btn-primary2:hover {
+	background-color: #fab915!important;
+	color: #fff!important;
+	text-shadow: none!important;
+	-webkit-text-shadow: none!important;
+	border: 1px solid #fab915!important;
+	transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.legal {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #8b8b8b;
+	font-size: 13px;
+}
+
+.chart-row {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+.footer .container {
+	width: 98%;
+	max-width: 1300px;
+}
+
+.btm-footer .container {
+	width: 98%;
+	max-width: 1300px;
+}
+
+.footer-icons {
+	text-align: right;
+	padding-top: 25px;
+}
+
+.icon-facebook, .icon-twitter, .icon-youtube, .icon-rss  {
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.icon-facebook  {
+	background-image: url(../img/facebook-icon.png);
+}
+.icon-twitter  {
+	background-image: url(../img/twitter-icon.png);
+}
+.icon-youtube  {
+	background-image: url(../img/youtube-icon.png);
+}
+.icon-rss  {
+	background-image: url(../img/rs-feed-icon.png);
+}
+
+
+
+/**************************************   START MEDIA    *****************************************/
+
+@media (max-width: 1200px) {
+
+	.main-news-tile, .news-1-1, .news-2-1, .news-3-1, .news-4-1, .news-1, .news-2, .news-3, .news-4 {
+		height: 200px;
+	}
+
+	.news-arrow {
+		top: 77px;
+	}
+
+	.news-tab-container {
+		text-align: left;
+		margin-top: 0px;
+		padding-left: 5px;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 992px) {
+	
+
+	.buy-bitcoin-btn {
+		border-bottom: 2px solid #fff;
+		border-right: none;
+		border-left: none;
+		width: 200%;
+		margin-left: -50%;
+	}
+
+	.buy-bitcoin-btn-right {
+		border-bottom: none;
+	}
+	
+
+	.satoshi-pulse-section {
+	padding: 0;
+	}
+
+	.new-box {
+		padding: 5px 10px;
+	}
+
+	#satoshi-pulse {
+		display: initial;
+	}
+
+	.satoshi-p {
+		padding: 0;
+		margin-bottom: 15px;
+	}
+
+	.new-box {
+		font-size: 10px;
+	}
+
+	.btn-4 {
+		padding: 10px 30px 10px 50px !important;
+	}
+
+	.satoshi-logo-container {
+		display: none;
+	}
+
+	
+	.wallet-pool-ctn {
+		display: none;
+	}
+
+	.section-1 {
+	background-image: url(../img/hp-bg-split.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: auto;
+    display: block;
+	/*flex-direction: column;
+	justify-content: center;
+	align-items: center;*/
+	}
+
+	.section-1-content {
+		height: 400px;
+		padding: 50px 15px;
+	}
+
+	.section-1-content-2 {
+		justify-content: center;
+		height: 400px;
+		padding-top: 0px;
+		text-align: right;
+		padding: 50px 15px;
+	}
+
+	.section-1-mining-p {
+		padding-left: 300px;
+	}
+
+	.wallet-img {
+	background: url(../img/header-bitcoin-wallet.png) no-repeat center;
+	height: 300px;
+	background-size: contain;
+	background-position: center;
+	margin: 0px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 200px;
+	right: 15%;
+	top: 100px;
+	display: inherit;
+}
+
+.laptop-img {
+	background: url(../img/header-pool-mining.png) no-repeat center;
+	height: 300px;
+	background-size: contain;
+	background-position: center;
+	margin: 0px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 300px;
+	left: 5%;
+	top: 500px;
+	display: inherit;
+}
+
+	
+
+	.news-tab-container {
+		text-align: center;
+		margin-top: 0px;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+
+	.news-arrow {
+		width: 20px;
+		height: 50px;
+		position: relative;
+		left: 101%;
+		background-image: url(../img/news-arrow.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		top: 185px;
+	}
+
+	.news-tab {
+		padding: 5px 0 5px 0;
+		font-size: 15px;
+		width: 19%;
+		margin-left: 0;
+		margin-right: 0;
+		min-height: 56px;
+		vertical-align: top;
+	}
+
+	.news-tab:hover {
+		border: 2px solid #fab915; 
+		color: #fab915;
+		transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+	}
+
+	.news-tab-active {
+		border: 2px solid #fab915; 
+		color: #fff !important;
+		background-color: #fab915;
+		transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+	}
+
+	.news-tile {
+		padding: 4px 4px 4px 4px;
+	}
+
+	.bch-section {
+		background: none;
+		background-color: #191919;
+		padding-bottom: 0;
+	}
+
+	.bch-section-p {
+		padding-right: 0px;
+		padding-bottom: 40px;
+	}
+
+	.bch-p-inline {
+		display: inline-block;
+	}
+
+	.bch-p-div {
+		z-index: 9999;
+	}
+
+	.bch-logo-0 {
+		width: 100vw;
+		background-color: #303030;
+		margin-left: calc(50% - 50vw);
+		padding-top: 30px;
+		padding-bottom: 30px;
+		align-content: center;
+		padding-left: 7%;
+		padding-right: 25%;
+	}
+
+	.bch-bgrd-img-div {
+		width: 350px;
+		position: absolute;
+		top: 210px;
+		bottom: 0;
+		right: 5%;
+		overflow: hidden;
+		 -webkit-transition: all .3s;
+	    -moz-transition: all .3s;
+	    -o-transition: all .3s;
+	    transition: all .3s;
+	}
+
+	.bch-bgrd-img {
+		width: 100%;
+		background-image: url(../img/bch-background.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+
+	.knowledge-line {
+		width: 250px;
+		border-right: none;
+	}
+
+
+	.card-padding {
+		padding: 20px 15px 0 15px;
+	}
+
+	.learn-section {
+		/*background: linear-gradient(180deg, #000 50%, #fab915 50%);*/
+		background-color: #000;
+		background-image: none;
+		padding-bottom: 0;
+	}
+	
+	
+
+	.basics-course {
+		/*padding-top: 80px;*/
+		/*display: none;*/
+		width: 100vw;
+		background-color: #fab915;
+		margin-left: calc(50% - 50vw);
+		/*margin-left: -5%;
+		margin-right: -5%;*/
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.bitcoin-academy {
+		width: 280px;
+		margin-top: 10px;
+	}
+
+	.academy-section {
+		padding-right: 0;
+		margin-bottom: 50px;
+	}
+
+	.kbt-tile-3 {
+		margin-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 10px;
+	}
+
+	.kbt-tile-1, .kbt-tile-2 {
+		margin-bottom: 10px;
+		
+	}
+
+ 	.charts {
+		border-right: 1px solid #303030;
+	}
+
+	.mkt-cap-col {
+		border: none;
+	}
+
+	.price-col, .mkt-cap-col {
+		border-bottom: 1px solid #303030;
+		padding-bottom: 40px;
+	}
+
+	.transactions-col {
+		padding-top: 30px;
+	}
+
+
+	.mc-div, .gc-div, .fc-div {
+		padding-left: 10px;
+    	padding-right: 10px;
+    	margin-bottom: 10px;
+	}
+
+	.product-tile-container-1, .product-tile-container-2, .product-tile-container-3 {
+	margin-bottom: 15px;
+	width: 100%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.satoshi-logo-2 {
+	max-width: 350px;
+	margin-bottom: 10px;
+}
+
+}
+
+
+
+/*****************************************************************************************************************************************/
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+		width: 95%;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.section-1 h1 {
+		font-size: 30px;
+	}
+
+	.btn-primary {
+		max-width: 500px;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		text-align: center;
+	}
+
+	.btn-gray {
+		max-width: 500px;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.laptop-img, .wallet-img {
+	display: none;
+	}
+
+	.h1-right {
+		text-align: left;
+	}
+
+	.h1-right:after {
+		left: 15px;
+	}
+
+	.section-1-p {
+		font-size: 25px;
+	}
+
+	.wallet-p {
+		font-size: 16px;
+		letter-spacing: 1px;
+		margin-bottom: 30px;
+	}
+
+	.section-1-content, .section-1-content-2  {
+		height: 415px;
+	}
+
+	.icon-container {
+		text-align: center;
+	}
+
+	.os-icons {
+		margin-top: 30px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	
+	.section-1-mining-p {
+		font-size: 25px;
+		padding-left: 0;
+	}
+
+	.section-1-content-2 {
+		text-align: left;
+	}
+
+	.pool-icon-ctn {
+		margin-top: 30px;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+
+	/*h1:after {
+	    content:' ';
+	    display:block;
+	    border:4px solid #fab915;
+	    width: 80px;
+	    margin: auto;
+	    margin-top: 10px;
+	}*/
+
+	.header-arrow {
+		height: 25px;
+		width: 25px;
+	}
+
+	/*.center-h1 {
+		text-align: center;
+	}*/
+
+	.news-tab {
+		font-size: 11px;
+		border: 1px solid #8b8b8b;
+		min-height: 0;
+		
+	}
+
+	.news-tab:hover {
+		border: 1px solid #fab915; 
+	}
+
+	.news-tab-active {
+		border: 1px solid #fab915; 
+	}
+
+	.news-arrow {
+		display: none;
+	}
+
+	/*.news-header {
+		text-align: center !important;
+	}*/
+	
+	.news-tab-container {
+		margin-bottom: 10px;
+	}
+
+	
+
+.bch-section-p {
+	font-size: 17px;
+}
+
+.bch-p-div {
+	text-align: center;
+}
+
+	.bch-logo-0 {
+		padding-right: 7%;
+		padding-left: 7%;
+	}
+
+	.bch-logo-2 {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.bch-arrow {
+	height: 20px;
+	width: 20px;
+	background-size: 20px 40px;
+	}
+
+	.bch-logo-1:hover .bch-arrow {
+		background-size: 20px 40px;
+		background-position: 0 -20px;
+	}
+
+	
+
+.bch-bgrd-img-div {
+	width: 350px;
+	position: absolute;
+	top: 210px;
+	bottom: 0;
+	right: 5%;
+	overflow: hidden;
+	 -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.bch-bgrd-img {
+	width: 100%;
+	background-image: url(../img/bch-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+	.learn-section {
+		/*background: linear-gradient(180deg, #000 520px, #fab915 280px);*/
+	}
+	
+
+	.basics-course {
+		/*padding-top: 60px;*/
+	}
+
+	.bitcoin-academy {
+		width: 230px;
+	}
+
+	.academy-p, .academy-p-2, .basics-p {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.knowledge-p {
+		font-size: 15px;
+		text-align: left;
+	}
+
+	.knowledge-base-section {
+		padding-bottom: 25px;
+	}
+
+	.kbt-tile-1, .kbt-tile-2, .kbt-tile-3 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.side-kbt-headline, .kbt-headline, .kbt-headline2 {
+		font-size: 16px;
+	}
+
+	.bch-p {
+		font-size: 15px;
+	}
+	.side-kbt-headline {
+	    padding-left: 165px;
+	}
+
+	.kb-header {
+		font-size: 20px;
+		margin-bottom: 15px;
+		/*text-align: center;*/
+		margin-top: 0;
+	}
+
+	.kb-3, .kb-4, .kb-5, .kb-6 {
+		width: 150px;
+	}
+
+	
+	.footer-email-form {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.chart-headers {
+		font-size: 35px;
+	}
+
+	.chart-ad {
+		margin-top: 0px;
+	}
+
+	.embed-graph {
+		max-width: none;
+	}
+
+	.mobile-p-padding {
+		margin-top: -10px;
+	}
+
+	.charts {
+		padding: 20px 0 10px 0;
+	}
+
+	.charts p {
+		font-size: 20px;
+		margin-bottom: 5px;
+		margin-top: -20px;
+	}
+
+	.price-col, .mkt-cap-col, .transactions-col {
+		border: none;
+	}
+
+	.charts-section {
+		padding-bottom: 30px;
+	}
+
+	/*.charts-section h1, .charts-section h3 {
+		text-align: center;
+	}*/
+
+	/*.news-2, .news-3, .news-4, .news-1 {
+		height: 400px;
+	}*/
+
+	.form-inline .form-control {
+	display: inline-block;
+}
+
+.carousel-header {
+	text-align: center;
+}
+
+.section3 {
+	padding-bottom: 30px;
+	
+}
+
+.banner {
+	background-position: center;
+}
+
+.product-tile-container-1, .product-tile-container-2, .product-tile-container-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.footer-icons {
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+
+.legal {
+	text-align: center;
+}
+
+.wallet-p {
+	line-height: 15px;
+}
+
+.developer-btn {
+	text-align: center;
+}
+
+
+}
+
+@media (max-width: 360px) {
+#hide-created {
+	display: none;
+}
+
+}
+
+.youtube-section {
+	background:url(../img/bitcoin-video.jpg) no-repeat center center;
+	background-size:cover;
+}
+
+/* Responsive YouTube Embeds */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden;
+  max-width: 100%; 
+  margin: 24px 0px;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+} 
+
+/* adwrapper banner under Getting Started */
+#adwrapper {
+	margin-bottom:50px;
+
+}
+#adwrapper img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	
+}
+@media (max-width: 992px) { 
+#adwrapper img {
+	width:100%;
+}
+}

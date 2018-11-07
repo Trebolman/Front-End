@@ -1,0 +1,35 @@
+To make this template fully display and function, you are invited to follow the steps below:
+
+1. Sign into your Blogger's dashboard, click 'Layout'
+
+2. Under 'Layout' tab, click 'Edit HTML'
+
+3. You might need to backup the template before you upload it, click 'download full template' to save the template file into the computer
+
+4. Click 'Browse' and choose the '(template-name).xml' file
+
+5. Click 'Upload' to upload the template to your blog
+
+6. Enjoy! 
+
+
+Set up the Social Network Section
+=================================
+
+1. Log into your Blogger's dashboard, click 'Layout'
+
+2. Click 'Edit HTML'
+
+3. Find the code below and edit it with corresponding item:
+
+<a href='STUMBLEUPON-LINK-HERE'>
+<a href='REDDIT-LINK-HERE'>
+<a href='RSS-LINK-HERE'>
+<a href='TECHNORATI-LINK-HERE'>
+<a href='TWITTER-LINK-HERE'>
+
+4. Click 'Save Template' to complete Social Network Section's settings.
+
+
+For more Blogger templates, please visit 
+http://www.skinpress.com

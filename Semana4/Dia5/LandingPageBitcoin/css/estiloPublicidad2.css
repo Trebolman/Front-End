@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'museo_sans_rounded300';
+    src: url('../fonts/museo-sans-rounded-300.ttf') format('ttf');
+    font-style: normal;
+    font-weight: bold;
+    /* font-style: normal; */
+    
+}
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative
+}
+
+body {
+    font-family: 'museo_sans_rounded300', sans-serif;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    width: 100%;
+}
+p {
+	font-family: 'museo_sans_rounded300', sans-serif;
+	color: #8b8b8b;
+	font-size: 18px;
+	font-weight: 400;
+}
+.satoshi-pulse-section {
+    width: 100%;
+    border: 1px solid red;
+    padding-bottom: 25px;
+    background-color: #fff;
+    padding-top: 25px;
+    margin: auto
+}
+.container {
+    border: 1px solid orange;
+    width: 90%;
+    margin: auto;
+    max-width: 1400px;
+    display: flex;
+}
+#satoshi-pulse {
+    display: flex;
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.satoshi-logo {
+    background-image: url(../img/satoshi-pulse-logo.png);
+    width: 350px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.satoshi-logo-2 {
+	width: 100%;
+	display: inline-block;
+}
+.publicidadTexto{
+    max-width: 30%;;
+}
+.developer-btn {
+	text-align: center;
+}
+
+.satoshi-p {
+    padding: 0 0px 0 20px;
+    margin-bottom: 0;
+}
+
+.btn-2 {
+    font-family: 'museo_sans_rounded500', sans-serif;
+    color: #fab915!important;
+    text-shadow: none!important;
+    -webkit-text-shadow: none!important;
+    border: 3px solid #fab915!important;
+    padding-left: 60px!important;
+    padding-right: 40px!important;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 100px;
+    max-width: 250px;
+    background-image: url(../img/arrow-in-circle-gold.png);
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: 8% 50%;
+}
+
+.btn-2:hover {
+    background-color: #fab915!important;
+    background-image: url(../img/arrow-in-circle-black.png);
+    color: #000!important;
+    text-shadow: none!important;
+    -webkit-text-shadow: none!important;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

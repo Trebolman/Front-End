@@ -1,0 +1,214 @@
+// Variables
+$azulClaro: #9FC8D9;
+$azulOscuro: #0F76A0;
+$plomito: #333333;
+$plomitoOscuro: #666666;
+$azulClaroClaro: #E7F1F5;
+// Comienzo
+*{
+    margin: 0px;
+    padding: 0px;
+    #cabeceralogo{
+        width: 96%;
+        height: 150px;
+        padding: 0% 2%;
+        background-color: $azulOscuro;
+        display: inline-block;
+        & > div{
+            max-width: 960px;
+            margin: 0px auto;
+            padding-top: 45px;
+            @media(max-width: 480px){
+                text-align: center;
+            }
+        }
+        h1{
+            font: bold 54px Arial, sans-serif;
+            color: white;
+            @media(max-width: 480px){
+                font: bold 46px Arial, sans-serif;
+            }
+        }
+    }
+    #menuprincipal {
+        width: 96%;
+        height: 50px;
+        padding: 0% 2%;
+        background-color: $azulClaro;
+        border-top: 1px solid $azulOscuro;
+        border-bottom: 1px solid $azulOscuro;
+        div {
+            max-width: 960px;
+            margin: 0px auto;
+        }
+        li {
+            // display: inline-block;
+            height: 35px;
+            padding: 15px 10px 0px 10px;
+            margin-right: 5px;
+            &:hover {
+                background-color: $azulClaro;
+            }
+            @media(max-width: 480px){
+                display: block;
+                margin-right: 0px;
+                text-align: center;
+            }
+        }
+        a{
+            font: bold 18px Arial, sans-serif;
+            color: $plomito;
+            text-decoration: none;
+        }
+        @media(max-width: 480px){
+            display: none;
+            width: 100%;
+            height: 100%;
+            padding: 0%;
+        }
+    }
+    #menuicono{
+        display: none;
+        width: 95%;
+        height: 38px;
+        padding: 12px 2% 0px 3%;
+        background-color: #9FC8D9;
+        border-top: 1px solid aliceblue;
+        border-bottom: 1px solid azure;
+        @media(max-width: 480px){
+            display: block;
+        }
+    }
+    main {
+        width: 96%;
+        padding: 2%;
+        background-image: url("fondo.png");
+        div {
+            max-width: 960px;
+            margin: 0px auto;
+            #articulosprincipales {
+                float: left;
+                /*width: 620px;*/
+                width: 65%;
+                padding-top: 30px;
+                background-color: white;
+                border-radius: 10px;
+                article {
+                    position: relative;
+                    padding: 0px 40px 20px 40px;
+                    time {
+                        display: block;
+                        position: absolute;
+                        top: -5px;
+                        left: -70px;
+                        width: 80px;
+                        padding: 15px 5px;
+                        background-color: $azulOscuro;
+                        box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+                        border-radius: 5px;
+                        color: white;
+                        .numerodia {
+                            font: bold 36px Verdana, sans-serif;
+                            color: white;
+                            text-align: center;
+                            @media(max-width: 1120px){
+                                display: inline-block;
+                                font: bold 14px Verdana, sans-serif;
+                                color: azure;
+                                padding-right: 5px;
+                            }
+                        }
+                        .nombredia {
+                            font: 12px Verdana, sans-serif;
+                            color: white;
+                            text-align: center;
+                            @media(max-width: 1120px){
+                                display: inline-block;
+                                font: bold 14px Verdana, sans-serif;
+                                color: azure;
+                            }
+                        }
+                        @media(max-width: 1120px){
+                            position: static;
+                            width: 100%;
+                            padding: 0px;
+                            margin-bottom: 10px;
+                            background-color: #0F76A0;
+                            box-shadow: 0px 0px 0px;
+                            border-radius: 0px;
+                        }
+                    }
+                    p {
+                        font: 18px Georgia, sans-serif;
+                    }
+                    figure {
+                        margin: 10px 0px;
+                        img {
+                            /*padding: 5px;*/
+                            max-width: 98%;
+                            padding: 1%;
+                            border: 1px solid;
+                        }
+                    }
+                    h1 {
+                        margin-bottom: 5px;
+                        font: bold 30px Georgia, sans-serif;
+                        @media(max-width: 1120px){
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+                @media(max-width: 720px){
+                    width: 100%;
+                }
+            }
+            #infoadicional {
+                float: right;
+                width: 29%;
+                padding: 2%;
+                background-color: $azulClaroClaro;
+                border-radius: 10px;
+                h1 {
+                    font: bold 18px Arial, sans-serif;
+                    color: #333333;
+                    margin-bottom: 15px;
+                }
+                @media(max-width: 720px){
+                    width: 90%;
+                    padding: 5%;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    #pielogo {
+        width: 96%;
+        padding: 2% 2% 2% 2%;
+        background-color: #0F76A0;
+        div {
+            max-width: 960px;
+            margin: 0px auto 2% auto;
+            background-color: $azulClaro;
+            border-radius: 10px;
+            .seccionpie {
+                float: left;
+                width: 27.33%;
+                padding: 3%;
+                h1 {
+                    font: bold 20px Arial, sans-serif;
+                }
+                p {
+                    margin-top: 5px;
+                }
+                a {
+                    font: bold 16px Arial, sans-serif;
+                    color: $plomitoOscuro;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .recuperar {
+        clear: both;
+    }
+}

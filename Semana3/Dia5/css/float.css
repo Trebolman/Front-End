@@ -1,0 +1,34 @@
+p, footer{
+    border: 1px solid blue;
+}
+section{
+    border: 3px solid red;
+    /* width: 500px;
+    height: 500px; */
+    /* display: block; */
+    /* overflow: auto; */
+}
+section div{
+    border: 1px solid orange;
+}
+#parrafo1{
+    float: left;
+    width: 600px;
+    margin: 0px;
+}
+#parrafo2{
+    /* width: 100px; */
+    color: purple;
+    /* float: right; */
+    margin: 0px;
+}
+#parrafo3{
+    /* width: 100px; */
+    color: purple;
+    float: right;
+    margin: 0px;
+}
+
+.clear{
+    clear: both;
+}

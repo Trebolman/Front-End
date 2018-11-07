@@ -1,0 +1,16 @@
+@font-face{
+	font-family: "potterino";
+	src:url("ParryHotter.ttf");
+}
+
+.boton{
+	font-size: 30px;
+	color: #ffffff;
+	border-radius: 10px;
+	background-color: #4267B2;
+	padding-left: 5px;
+	padding-right: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'potterino';
+}

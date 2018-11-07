@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Glosario</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="trebol.png">
+</head>
+<body>
+	<h1 align="center">Formularios general</h1>
+	<form action="registro.html" method="get">
+		<table border="1">
+			<tr>
+				<td colspan="2" align="center"><strong>Formulario general</strong></td>
+			</tr>
+			<tr>
+				<td><label>Nombre</label></td>
+				<td><input type="text" name="nombre" placeholder="Ejm: Daniel Isaac"></td>
+			</tr>
+			<tr>
+				<td><label>Género</label></td>
+				<td>
+					<label>Femenino</label><input type="radio" name="genero" value="f" checked="0">
+					<label>Masculino</label><input type="radio" name="genero" value="m" checked="1"><br>
+					<label>Adulto</label><input type="radio" name="categoria" value="ad" checked>
+					<label>Niño</label><input type="radio" name="categoria" value="ni">
+				</td>
+			</tr>
+			<tr>
+				<td>Descripción</td>
+				<td><textarea name="descripcion" cols="40" rows="5" placeholder="Cuentamos sobre ti"></textarea></td>
+			</tr>
+			<tr>
+				<td>Correo</td>
+				<td><input type="email" name="correo" placeholder="Ejm: icabanah@gmail.com"></td>
+			</tr>
+			<tr>
+				<td>Contraseña</td>
+				<td><input type="password" name="pass"></td>
+			</tr>
+			<tr>
+				<td>Lenguajes</td>
+				<td>
+					<input type="checkbox" name="lenguajes" checked="1">Java
+					<input type="checkbox" name="lenguajes"><span>C#</span>
+					<label>Python</label><input type="checkbox" name="lenguajes">
+				</td>
+			</tr>
+			<tr>
+				<td>Nacionalidad</td>
+				<td>
+					<select name="nacionalidad">
+						<option value="per">Peruano</option>
+						<option value="ven">Venezolano</option>
+						<option value="chl">Chileno</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Telefono</td>
+				<td>
+					<datalist id="datos">
+						<option value="12345660" label="telefono1">
+						<option value="12345660" label="telefono2">
+						<option value="12345660" label="telefono3"></option>
+					</datalist>
+					<p>
+						<input type="tel" name="telefono" list="datos">
+					</p>
+				</td>
+			</tr>
+			
+			<tr>
+				<td style="color: #FF0000">Completado al 20%</td>
+				<td style="color: #FFD000; opacity: 1"><progress value="20" max="100" style="background-color: #FC0000">20%</td>
+			</tr>
+
+			<tr>
+				<td>Temperatura</td>
+				<td>
+					<meter value="60" min="10" max="200" low="10" high="100" optimum="200">100</meter>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Registro"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

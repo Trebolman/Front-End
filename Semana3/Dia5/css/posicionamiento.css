@@ -1,0 +1,19 @@
+body{
+    border: 1px solid blue;
+    margin: 0;
+}
+.rojo{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    background-color: red;
+    margin: 0;
+}
+#relativo{
+    position: relative;
+}
+#movido{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}

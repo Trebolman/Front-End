@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CodiTEC Movies</title>
+    <!--<link rel="stylesheet" href="css/banner.css">-->
+    <link rel="stylesheet" href="css/banner.css">
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!--<section id="banner">
+        <ul id="slider">
+            <li class="imagen-1"><img src="img/imgEjemplo1.jpg" alt=""></li>
+            <li class="imagen-2"><img src="img/imgEjemplo2.png" alt=""></li>
+            <li class="imagen-3"><img src="" alt=""></li>
+            <li class="imagen-4"><img src="" alt=""></li>
+        </ul>
+    </section>-->
+    <h2 class="w3-center">CODITEC Movies</h2>
+
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="img/romance.jpg" style="width:100%">
+        <img class="mySlides" src="img/terror.jpg" style="width:100%">
+        <img class="mySlides" src="img/accion.jpg" style="width:100%">
+        <img class="mySlides" src="img/comedia.jpg" style="width:100%">
+
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

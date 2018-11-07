@@ -1,0 +1,36 @@
+.cabecera{
+	width: 100%;
+	height: 5em;
+	border: 1px solid;
+	border-color: red;
+	color: #282923;
+	text-align: center;
+	/*background-color: #ff0000;*/
+}
+
+.boton{
+	color: blue;
+	display: block;
+	justify-content: center;
+	/*background-color: #4267B2;
+	padding-left: 5px;
+	padding-right: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 2px;*/
+	/*margin: auto;*/
+}
+
+.botones{
+	border: 1px solid blue;
+	/*align-items: center;*/
+	/*display: flex;*/
+	/*justify-content: center;*/
+}
+.aside{
+	width: 30%;
+	height: 20em;
+	float: right;
+	border: 1px solid;
+	border-color: red;
+}

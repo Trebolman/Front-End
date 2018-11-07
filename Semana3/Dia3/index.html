@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <script type="text/javascript">
+        function realizar(){
+            window.location = "https://www.youtube.com/";
+        }
+        function recargar(){
+            window.location.reload();
+        }
+        // function actualizarFecha(){
+        //     var fecha = new Date();
+        //     setTimeout(() => {
+        //         console.log(fecha);
+        //     },3000);
+        // }
+        // function actualizarFecha(){
+        //     setInterval(() => {
+        //         var fecha = new Date();
+        //         console.log(fecha);},1000);
+        // }
+        function actualizarFecha(){
+            var fecha = new Date();
+            console.log(fecha);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="realizar();">Abrir pagina</button><br>
+    <button onclick="recargar();">Recargar</button><br>
+    <button onclick="actualizarFecha();">Imprimir fecha en consola</button>
+    <button onclick="setInterval(actualizarFecha,2000);">Actualizar cada cierto tiempo</button>
+</body>
+</html>

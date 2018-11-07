@@ -1,0 +1,16 @@
+body {
+  margin: 1rem 5rem;
+  background-color: #0E0D13; }
+  body p {
+    color: #557FFF; }
+  body h1 {
+    text-align: center;
+    color: #F0F0F0; }
+    body h1 a {
+      color: #F0F0F0;
+      padding: 0.5rem 2rem;
+      border-radius: 1rem;
+      text-decoration: none;
+      background-color: #ff0000; }
+
+/*# sourceMappingURL=demoScss.css.map */

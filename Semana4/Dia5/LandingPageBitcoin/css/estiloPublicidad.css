@@ -1,0 +1,18 @@
+body{
+	border: 1px solid purple;
+	margin: 0;
+}
+#publicidad{
+	width: 80%;
+	margin: auto;
+}
+.contenedor{
+	border: 1px solid blue;
+	display: flex;
+	justify-content: space-between;
+}
+.publi{
+	border: 1px solid red;
+	width: 30%;
+	margin: 1px;
+}

@@ -1,0 +1,22 @@
+$rojo: #ff0000;
+$fondoNegro: #0E0D13;
+$azulVisualCode: #007ACC;
+$blancoMoreno: #F0F0F0;
+body{
+    margin: 1rem 5rem;
+    background-color: $fondoNegro;
+    p{
+        color: #557FFF;
+    }
+    h1{
+        text-align: center;
+        color: $blancoMoreno;
+        a{
+            color: $blancoMoreno;
+            padding: 0.5rem 2rem;
+            border-radius: 1rem;
+            text-decoration: none;
+            background-color: $rojo;
+        }
+    }
+}

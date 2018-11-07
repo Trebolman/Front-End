@@ -1,0 +1,80 @@
+.titulo{
+	font-size: 50px;
+	text-align: center;
+	color: #B02402; 
+}
+
+#navegador ul{
+	list-style-type: none;
+	text-align: center;
+}
+#navegador li{
+	display: inline;
+	text-align: center;
+	margin: 0 10px 0 0;
+	padding: 100px;
+} 
+#navegador li a {|
+	padding: 2px 7px 2px 7px;
+	color: #666;
+	background-color: #eeeeee;
+	border: 1px solid #ccc;
+	text-decoration: none;
+} 
+#navegador li a:hover{
+	background-color: #B02402;
+	color: #ffffff;
+} 
+#descripcion img{
+	width:260px;
+	height:260px;
+	float: right;
+}
+#catalogo table{
+	width: 100% /*para que la tabla ocupe todo el ancho de la pagina*/
+}
+#catalogo th{
+	background-color: #B02402;
+	font-size: 18px;
+	color: white;
+}
+#catalogo tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+#catalogo tr:nth-child(odd) {
+	background-color: #B02402;
+	color: #ffffff;
+}
+#catalogo table, th, td{	
+	border-collapse: collapse;/*para q la tabla tenga un solo borde*/
+	border: 1px solid black;/*tamaño del borde solido, de color negro*/
+	text-align: center;/*alineamiento horizontal del texto*/
+	vertical-align: center;/*alineamiento vertical del texto*/
+}
+#catalogo img{
+	width: 150px;
+	height: 150px;
+}
+.articulo {
+	border-collapse: collapse;
+	border: 1px solid red;
+
+}
+.articulo h2{
+	font-size: 20px;
+	text-align: left;
+	color: #B02402; 
+}
+.articulo img{
+	width:180px;
+	height:180px;
+	float: left;
+}
+#divisor{
+	border: 5px solid #CB0C85;
+}
+#formulario{
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid red;
+}

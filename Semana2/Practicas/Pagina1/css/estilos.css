@@ -1,0 +1,98 @@
+@charset "utf-8";
+/*div{
+	display: inline-block;
+	color: blue;
+	border: thin;
+	margin: auto;
+}
+
+div h1{
+	display: inline-block;
+	text-align: center;
+}*/
+body{
+	background-color: aqua;
+}
+
+.contenido{
+	background-color: orange;
+	width: 90%;
+	/*height: auto;*/
+	margin: auto;
+	border: 1px solid;
+	outline: 2px dotted red;
+	outline-offset: 15px;
+}
+.cabecera{
+	position: relative;
+	border: 1px solid red;
+}
+#divTelefono{
+	display: inline-block;
+	border: 1px solid black;
+	position: absolute;
+	right: 0px;
+}
+
+#divLogo{
+	display: inline-block;
+	border: 1px solid black;
+}
+
+#divLogo img, #divLogo h1{
+	display: inline-block;
+}
+
+
+p#imagenTelefono{
+	display: inline-block;
+	border: dotted;
+}
+
+p#textoParrafo{
+	display: inline-block;
+	border: dashed;
+}
+
+.banner{
+	width: 80%;
+	position: relative;
+	border: solid 3px white;
+	margin: auto;
+}
+
+#bannerImagen {
+	border: 1px solid green;
+	text-align: center;
+	vertical-align: middle;
+	/*position: absolute;
+	margin: auto;*/
+}
+
+.cuerpo{
+    position: relative;
+}
+article{
+    display: inline-block;
+    border: 1px solid yellow;
+    width: 60%;
+}
+
+aside{
+    position: absolute;
+    display: inline-block;
+    border: 1px groove black;
+}
+
+#autorImagen{
+    border: 1px solid red;
+    /*float: right;*/
+    /*position: absolute;*/
+    text-align: center;
+}
+
+aside h2{
+}
+div {
+    display: inline-block;
+}

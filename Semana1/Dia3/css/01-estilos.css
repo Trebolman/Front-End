@@ -1,0 +1,28 @@
+tr:nth-child(2){
+	background-color: #5424aa;
+}
+
+tr:first-child{
+	background-color: #ff0000;
+}
+
+tr:last-child{
+	background-color: #ffff34;
+}
+
+:not(table){
+	color: #ff1245;
+}
+p.parrafo1{
+	font-size: 40px;
+}
+
+span[name]{
+	font-size: 25px;
+	color: #ff0000;
+}
+
+span[name='minombre']{
+	font-size: 25px;
+	color: #00ffff;
+}

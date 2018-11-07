@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <script src="elementos.js"></script>
+    <style type="text/css">
+        .botones{
+            position: relative;
+            display: inline-block;
+            top: 1px;
+            margin-right: 2px;
+            /* right: 10px;; */ 
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1 id="titulo">Mi titulo</h1>
+        <p id="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed repellendus reiciendis facere ipsa atque, temporibus rerum magni minima, voluptate eius nulla earum laborum odit architecto. Eos cumque soluta quam error!</p>
+    </section>
+    <button onclick="darFormato();" class="botones">Dar formato</button>
+    <button onclick="aumentar();" class="botones">+</button>
+    <button onclick="reducir();" class="botones">-</button>
+    <!-- <button onclick="normal();" class="botones"><strong>N</strong></button> -->
+    <button onclick="negrita();" class="botones"><strong>B</strong></button>
+    <button onclick="oblicua();" class="botones"><strong>O</strong></button>
+    <button onclick="subrayado();" class="botones"><strong>S</strong></button><br>
+    <button onclick="cambiarTexto();" class="botones">Cambiar texto</button>
+    <button onclick="insertarInput();" class="botones">Insertar input</button>
+    <form action="" id="formulario">
+        <label for="">Texto de prueba</label>
+        <input type="text" id="miTitulo">
+        <textarea name="" id="miParrafo" cols="30" rows="10"></textarea>
+    </form>
+    <br>
+    
+</body>
+</html>

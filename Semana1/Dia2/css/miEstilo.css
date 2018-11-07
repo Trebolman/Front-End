@@ -1,0 +1,22 @@
+p, span{
+	color: #000000;
+	font-size: 20px;
+}
+
+a span{
+	color: orange;
+}
+
+.politica{
+	text-decoration: underline;
+	color: #FC0000;
+}
+
+.deporte{
+	text-decoration: underline;
+	color: purple;
+}
+
+.imagen{
+	float:right;
+}

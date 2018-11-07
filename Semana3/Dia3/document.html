@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="objetoDocument.js"></script> -->
+    <script type="text/javascript">
+        var x;
+        function recorrer(misItems){
+            for(var i=0;i<misItems.length;i++){
+                console.log(`El contenido del parrafo es: ${misItems[i].innerHTML}`);
+            }
+        }
+        // function iniciar(){
+        //     x = document.getElementById("titulo");
+        //     console.log(x);
+        // }
+        function iniciar(){
+            x = document.getElementById("titulo");
+            x.style.backgroundColor = "#ff0000";
+            x.style.textDecoration = "underline"; 
+        }
+        function mostrar(){
+            console.log(x.id);
+            console.log(x.innerHTML); //Muestra el texto
+        }
+        function parrafos(){
+            var misParrafos = document.getElementsByTagName("p"); //Es un HTMLCollection
+            // console.log(misParrafos);
+            // console.log(misParrafos[0].innerHTML);
+            // console.log(misParrafos[0].innerText);
+            for(var i=0;i<misParrafos.length;i++){
+                console.log(`El contenido del parrafo es: ${misParrafos[i].innerHTML}`);
+            }
+        }
+        function parrafosPorNombre(){
+            var misParrafos= document.getElementsByName("parrafo"); //Es un nodeList
+            // console.log(misParrafos);
+            for(var i=0;i<misParrafos.length;i++){
+                console.log(`El contenido del parrafo es: ${misParrafos[i].innerHTML}`);
+            }
+        }
+        function parrafosPorQuery(){
+            var misParrafos = document.querySelectorAll("body > p");
+            console.log(misParrafos);
+            recorrer(misParrafos);
+        }
+        function parrafosPorSection(){
+            var misSecciones = document.getElementById("miSeccion");
+            var misItemsDeSeccion = misSecciones.getElementsByTagName("p");
+            // for(var i=0;i<misParrafos.length;i++){
+            //     console.log(`El contenido del parrafo es: ${misParrafos[i].innerHTML}`);
+            // }
+            recorrer(misItemsDeSeccion);
+            parrafosPorQuery();
+        }
+        function anchoDeTitulo(){
+            x = document.getElementById("titulo");
+            console.log(x.clientWidth);
+        }
+        
+    </script>
+    <style type="text/css">
+        * {
+            border: 1px solid red;
+        }
+        /* body p{
+
+        } */
+    </style>
+</head>
+<body>
+    <h1 id="titulo" onclick="mostrar()">Hola nariz de bola</h1>
+    <p name="parrafo">Mi parrafo 1</p>
+    <p name="parrafo">Mi parrafo 2</p>
+    <p>Lero lero</p>
+    <p>¿Hola? Bah!</p>
+    <p>¿Que miras?</p>
+    <section id="miSeccion">
+            <p>Mi parrafo 1 de section</p>
+            <p>Mi parrafo 2 de section</p>
+            <p>Lero lero</p>
+            <p>¿Hola? Bah!</p>
+            <p>¿Que miras?</p>
+    </section>
+    <button onclick="iniciar()">Click!</button>
+    <button onclick="setInterval(anchoDeTitulo,1000);">Ancho de titulo</button>
+</body>
+</html>

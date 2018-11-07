@@ -1,0 +1,199 @@
+/* ESTILOS GLOBALES */
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+body{
+    margin: 0px;
+    font-family: "Raleway","Oregano","Helvetica World", sans-serif;
+}
+.boton{
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2.5rem;
+    margin: 0 0 2rem;
+}
+.boton a{
+    text-align: center;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white;
+}
+.botonAzulSolido{
+    background-color: #0e5088;
+}
+.botonAzulTransparente{
+    background-color: rgba(14, 80, 136, 0.25);
+}
+.botonRojo{
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    background-color: rgba(168, 5, 38, 0.29)
+}
+.botonFondoTransparente{
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    margin: 0 0 2rem;
+    background-color: white;
+    border: 0.1rem solid #a2cff0;
+}
+.botonFondoTransparente a{
+    
+    color: #7fbeec;
+    font-weight: 700;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 0 0;
+}
+/* ESTILOS DE BANNER */
+.banner{
+    background-image: url(../img/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+}
+#contenedor header{
+    padding: 1rem 0;
+}
+header span{
+    font-weight: 400;
+}
+#logo{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    float: left;
+    margin: 2rem 0 0;
+}
+nav{
+    float: right;
+    margin: 2rem 0 0;
+}
+nav a{
+    font-family: "Oregano";
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    margin-left: 2rem;
+}
+.contenido{
+    padding: 4rem 0 2rem 0;
+}
+#titulo, #subtitulo{
+    text-align: center;
+    color: white;
+}
+.contenido h1{
+    /* font-weight: 700; */
+    font-size: 3.5rem;
+    font-family: "Helvetica World";
+    font-style: bold;
+}
+#subtitulo{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 1.2rem;
+    max-width: 80%;
+    margin: 0 auto 2rem auto;
+    opacity: 0.8;
+}
+.botones{
+    text-align: center;
+    margin: 0 0 3rem;
+}
+
+/* ESTILOS DE SERVICIOS */
+.servicios{
+    background: #ededed;
+    display: relative;
+    padding: 2rem 0 6rem 0;
+}
+.servicio{
+    background: white;
+    margin: -5rem 1% 0 1%;
+    float: left;
+    width: 31%;
+    /* height: 15%; */
+    padding: 2rem 2.5%;
+    text-align: center;
+    position: relative;
+    -webkit-box-shadow: 0 0 50px 0 rgba(4, 6, 9, 0.25);
+    -moz-box-shadow: 0 0 50px 0 rgba(4, 6, 9, 0.25);
+    box-shadow: 0 0 50px 0 rgba(4, 6, 9, 0.25);
+}
+.servicio a{
+    margin: auto auto 2rem auto;
+}
+.cf::before,.cf::after{
+    content: " ";
+    display: table;
+}
+.cf::after{
+    clear: both;
+}
+.servicio::after{
+    content: " ";
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    height: 50px;
+    border-left: 2px solid #00709E;
+}
+.servicios::before{
+    content: " ";
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    border-top: 2px solid #00709E;
+    width: 65.3%;
+    margin-left: 13.3%
+}
+.mid::after{
+    content: " ";
+    position: absolute;
+    left: 50%;
+    border-left: 2px solid #00709E;
+    height: 50px;
+    bottom: -100px;
+}
+/* ESTILOS NUESTRO TRABAJO */
+.trabajosPasados{
+    text-align: center;
+    padding: 2rem 0 5rem 0;
+    background-color: #0b2f4f;
+    overflow: hidden;
+}
+.trabajosPasados h1{
+    font-family: "Helvetica World";
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: white;
+}
+.logos{
+    width: 750px;
+    max-width: 85%;
+}
+.slider{
+    list-style: none;
+}
+.slider li{
+    width: 600px;
+    height: 375px;
+    overflow: hidden;
+    background-color: white;
+    -webkit-box-shadow: 0 0 57px 0 rgba(4, 6, 9, 0.25);
+    -moz-box-shadow: 0 0 57px 0 rgba(4, 6, 9, 0.25);
+    box-shadow: 0 0 57x 0 rgba(4, 6, 9, 0.25);
+    position: absolute;
+    z-index: 3;
+    border: 3.5rem 3.5rem 0 0;
+}

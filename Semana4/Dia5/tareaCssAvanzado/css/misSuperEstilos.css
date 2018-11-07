@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box; }
+  * .contenedor {
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto; }
+    * .contenedor .banner {
+      background-image: url(../img/cabecera.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* width: 100%; */ }
+      * .contenedor .banner header {
+        padding: 1rem 0; }
+        * .contenedor .banner header span {
+          font-weight: 400; }
+        * .contenedor .banner header #logo {
+          color: white;
+          font-weight: 700;
+          font-size: 2rem;
+          float: left;
+          margin: 2rem 0 0; }
+        * .contenedor .banner header nav {
+          float: right;
+          margin: 2rem 0 0; }
+          * .contenedor .banner header nav a {
+            font-family: "Oregano";
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 2rem;
+            color: white;
+            margin-left: 2rem; }
+        * .contenedor .banner header .contenido {
+          padding: 4rem 0 2rem 0; }
+
+/*# sourceMappingURL=misSuperEstilos.css.map */

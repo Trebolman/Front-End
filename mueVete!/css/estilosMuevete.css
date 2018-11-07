@@ -1,0 +1,72 @@
+body{
+    background-color: floralwhite;
+}
+#contenedor{
+    border: 3px solid;
+    background-color: lightblue;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin: auto;
+}
+.barra{
+    position: absolute;
+    height: 400px;
+    width: 50px;
+    bottom: 50px;
+    border: 2px solid black;
+}
+.Izquierda{
+    left: 30px;
+}
+.Derecha{
+    right: 30px;
+}
+#tiempo{
+    position: absolute;
+    height: 400px;
+    width: 30px;
+    /* bottom: 50px; */
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: blue;
+} 
+#puntos{
+    position: absolute;
+    height: 400px;
+    width: 30px;
+    /* bottom: 50px; */
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: red;
+} 
+
+#contenedor h1, #contenedor > h3, #contenedor > p{
+    text-align: center;
+}
+#cajaJuego{
+    border: 3px solid blueviolet;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    background-color: aquamarine;
+}
+#puntaje{
+    display: inline-block;
+    border: 1px solid orange;
+    position: relative;
+    right: 0px;
+    left: 10px;
+    bottom: 10px;
+    top: 400px;
+}
+#caja{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}

@@ -1,0 +1,87 @@
+/* CSS Document */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#Contenedor{
+    float: left;
+    width: 100%;
+    padding-right: 260px;
+    margin-right: -240px;
+    box-sizing: border-box;
+}
+aside{
+    float: right;
+    width: 240px;
+    padding: 20px;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+#ColumnaCentral {
+    float: right;
+    width: 100%;
+    padding-left: 220px;
+    margin-left: -200px;
+    box-sizing: border-box;
+}
+#ColumnaCentral > div{
+    padding: 20px;
+    background-color: antiquewhite;
+}
+#ColumnaIzquierda{
+    float: left;
+    width: 200px;
+    padding: 20px;
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+article{
+    font: bold 1.5rem Georgia, sans-serif;
+}
+/*article img{
+    max-width: 100%;
+}*/
+article h1{
+    font: bold 2rem Georgia, sans-serif;
+    text-align: center;
+}
+aside h1{
+    font: bold 1.2em Georgia,sans-serif;
+}
+aside p{
+    font: 1em Georgia, sans-serif;
+}
+#cuerpo{
+    background: url(../img/imagen.jpg) no-repeat;
+}
+
+@media(max-width: 480px){
+    #cuerpo{
+        background: url(img/imageReducida.jpg)
+    }
+}
+.clear{
+    clear: both;
+}
+/*body{
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}*/
+/*@media(max-width: 480px){
+    body{
+        background-color: aquamarine;
+    }
+}
+@media(max-width: 768px){
+    body{
+        background-color: azure;
+    }
+}
+@media(max-width: 1300px){
+    body{
+        background-color: burlywood;
+    }
+}*/
+
+

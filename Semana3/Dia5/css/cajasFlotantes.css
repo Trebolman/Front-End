@@ -1,0 +1,43 @@
+#padre{
+    width: 1000px;
+    border: 3px solid orange;
+    margin: auto;
+}
+#caja1{
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: aqua;
+}
+#caja2{
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: red;
+}
+#caja3{
+    float: right;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: brown;
+}
+#caja4{
+    float: right;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: blue;
+}
+#caja5{
+    float: right;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: yellow;
+}
+#clear{
+    clear: both;
+}

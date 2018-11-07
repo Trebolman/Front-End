@@ -1,0 +1,46 @@
+// ESTILOS GLOBALES
+*{
+    box-sizing: border-box;
+    // ESTILOS GLOBALES
+
+    // ESTILOS PARTICULARES
+    .contenedor{
+        width: 1440px;
+        max-width: 90%;
+        margin: 0 auto;
+        .banner{
+            background-image: url(../img/cabecera.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* width: 100%; */
+            header{
+                padding: 1rem 0;
+                span{
+                    font-weight: 400;
+                }
+                #logo{
+                    color: white;
+                    font-weight: 700;
+                    font-size: 2rem;
+                    float: left;
+                    margin: 2rem 0 0;
+                }
+                nav{
+                    float: right;
+                    margin: 2rem 0 0;
+                    a{
+                        font-family: "Oregano";
+                        text-decoration: none;
+                        font-weight: 700;
+                        font-size: 2rem;
+                        color: white;
+                        margin-left: 2rem;
+                    }
+                }
+                .contenido{
+                    padding: 4rem 0 2rem 0;
+                }
+            }
+        }
+    }
+}
