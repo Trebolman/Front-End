@@ -1,0 +1,58 @@
+.nav-link{
+    background-color: orangered;
+}
+.linea-naranja{
+    width: 100px;
+    background-color: orangered;
+    height: 3px;
+    /* display: inline; */
+}
+.texto-grande{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.bg-plomo{
+    background-color: burlywood
+}
+.panel{
+    background-color: white;
+}
+.media-body h5{
+    color: orangered;
+}
+.foto img{
+    transition: 0.5s;
+}
+.foto img:hover{
+    transform: scale(1.1); 
+}
+.panel-heading{
+    padding: 10px;
+}
+/* .panel-body{
+    padding: 10px;
+} */
+
+.panel-title > a:before{
+    float: left !important;
+    font-family: FontAwesome;
+    content: "-";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before{
+    float: left !important;
+    content: "+";
+}
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus{
+    text-decoration: none;
+}
+.contacto{
+    background: url('http://placehold.it/1400X520') no-repeat center;
+    background-attachment: fixed;
+}
+.texto-contacto{
+    padding: 200px 10px;
+    font-size: 2em;
+}
