@@ -18,6 +18,7 @@ function ImprimirTabla(usuarios){
 fetch("https://reqres.in/api/users")
 .then(function(data){
     return data.json();
+    // return data.json();
 })
 .then(function(datos){
     // for(var i = 0; i < datos.lenght; i++){
