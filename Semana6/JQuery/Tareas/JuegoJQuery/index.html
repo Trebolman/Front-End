@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js.js"></script>
+	<style type="text/css">
+		table {
+		  border-collapse: collapse;
+		}
+		td {
+		  padding: 70px;
+		  border: 2px solid black;
+		  cursor: pointer;
+		}
+		.obstacle {
+		  background-color: green !important;
+		}
+		.foo {
+		  background-color: #887c7c;
+		}
+		div#bolita{
+			border: 2px solid blue;
+			background-color: blue;
+			border-radius: 999px;
+			height: 15px;
+			width: 15px;
+			/* margin-top: 265px; */
+			position: absolute;
+			z-index: 30;
+		}
+	</style>
+</head>
+<body>
+	<div id="bolita"></div>
+	<table >
+		<tr>
+			<td class="foo"></td>
+			<td class="foo"></td>
+			<td class="obstacle"></td>
+			<td class="obstacle"></td>	
+		</tr>
+		<tr>
+			<td class="obstacle"></td>
+			<td class="foo"></td>
+			<td class="obstacle"></td>
+			<td class="obstacle"></td>
+		</tr>
+		<tr>
+			<td class="obstacle"></td>
+			<td class="foo"></td>
+			<td class="obstacle"></td>
+			<td class="obstacle"></td>
+		</tr>
+		<tr>
+			<td class="obstacle"></td>
+			<td class="foo"></td>
+			<td class="foo"></td>
+			<td class="foo"></td>
+		</tr>
+	</table>
+</body>
+</html>
