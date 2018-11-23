@@ -29,12 +29,28 @@
             padding: 10px;
             font-family: fantasy;
         }
+        .contenedor, #objetivo{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border: 2px solid orangered;
+            padding: 2px;
+            margin: 10px;
+        }
+        .contenido{
+            width: 50px;
+            height: 50px;
+            background-color: orangered;
+            border: 2px solid aqua;
+            padding: 2px;
+            margin: 10px;
+        }
     </style>
 
 </head>
 <body>
     <!-- Elementos arrastrables -->
-    <div class="elemento">
+    <!-- <div class="elemento">
         Div1
     </div>
 
@@ -44,13 +60,33 @@
 
     <div class="elemento">
         Div3
-    </div>
-    <hr>
+    </div> -->
+    <!-- <hr>
     <ul class="lista">
         <li>Twisted Metal</li>
         <li>Crash Car</li>
         <li>Tekken 3</li>
         <li>Resident Evil</li>
-    </ul>
+    </ul> -->
+    <!-- <hr>
+
+    <div class="contenedor"></div>
+
+    <div class="contenido"></div>
+
+    <div id="objetivo"></div>
+    <button id="btnAnimar">Animar</button> -->
+    <hr>
+
+    <ol>
+        <li title="Helper del item 1">List item 1</li>
+        <li title="Helper del item 2">List item 2</li>
+        <li title="Helper del item 3">List item 3</li>
+    </ol>
+    <hr>
+    <button id="btnAbrir">Abrir modal</button>
+    <div style="display: none" id="modal" title="¿Estas seguro que deseas salir?">
+        <p>Mira que no hay retorno sin dolor</p>
+    </div>
 </body>
 </html>

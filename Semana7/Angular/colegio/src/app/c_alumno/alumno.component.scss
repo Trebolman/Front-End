@@ -1,0 +1,49 @@
+p{
+    font-size: 3rem;
+    color: peru;
+}
+.seleccionado{
+    background-color: chocolate;
+    color: white;
+}
+.alumnos{
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+    li{
+        cursor: pointer;
+        position: relative;
+        left: 0;
+        background-color: white;
+        margin: .5em;
+        padding: .3em;
+        height: 1.6em;
+        border-radius: 4px;
+        &.seleccionado:hover{
+            background-color: bisque;
+        }
+        &:hover{
+            color: orangered;
+            background-color: rgb(214, 162, 49);
+        }
+    }
+    .text{
+        position: relative;
+        top: -3px;
+    }
+    .caja{
+        display: inline-block;
+        font-size: small;
+        color: white;
+        padding: 0.8em 0.7em 0 0.7em;
+        background-color: crimson;
+        line-height: 1em;
+        position: relative;
+        left: -1px;
+        top: -4px;
+        height: 1.8em;
+        margin-right: .8em;
+        border-radius: 4px 0 0 4px;
+    }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAuEA,CAAC;EACG,WAAW,EAAE,QAAQ;EACrB,aAAW;IACP,gBAAgB,EAAE,OAAO;IACzB,qBAAK;MACD,KAAK,EAAE,KAAK",
+"sources": ["EstilosArticulos.scss"],
+"names": [],
+"file": "EstilosArticulos.css"
+}

@@ -1,0 +1,30 @@
+<div [ngStyle] = "{
+  'border.width': '2px',
+  'border-style': 'solid',
+  'border-color': config.letra == 'black' ? 'red' : 'yellow',
+  'padding': '10px',
+  'background': config.fondo
+}">
+  <h1>{{titulo}}</h1>
+  <p>
+    Mostrando el componente de alumno
+  </p>
+  <button (click)="cambiarTitulo()">Cambiar titulo</button><br><hr>
+  <span>{{config.fondo}}</span><br>
+
+  <ul>
+    <!-- <li *ngFor="let insti of misInstituciones">
+      {{insti.nombre}} - <strong>{{insti.ruc}}</strong>
+      <span *ngIf="insti.age >= 2000" [style.background] = "'yellow'"> {{insti.age}}</span>
+      <span *ngIf="insti.age < 2000"> {{insti.age}}</span> 
+    </li> -->
+    <li *ngFor="let insti of misInstituciones; let indice = index">
+      {{indice}} {{insti.nombre}} - <strong>{{insti.ruc}}</strong>
+      <span *ngIf="insti.age >= 2000" [style.background] = "'yellow'"> {{insti.age}}</span>
+      <span *ngIf="insti.age < 2000"> {{insti.age}}</span> 
+    </li>
+  </ul>
+  
+  <carrera></carrera><br>
+</div>
+

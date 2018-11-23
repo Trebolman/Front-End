@@ -1,0 +1,64 @@
+// COLORES PERSONALIZAOOS
+$EnlacesMorados: #330066;
+$EnlaceVisitado: #6633cc;
+
+// ESTILOS GLOBALES
+*{
+    margin: 0;
+}
+// CLASES PARA BOTONES
+.btnMenu{
+    padding: 1.2rem;
+    
+}
+
+body{
+    // position: relative;
+    font-family: Consolas;
+    width: 100%;
+    height: 620px;
+    header{
+        // position: flex;
+        box-sizing: border-box;
+        max-width: 100%;
+        #imagenCabecera img{
+            max-width: 100%;
+        }
+        .titulo{
+            text-align: center;
+        }
+        nav{
+            // border: 2px solid red;
+            margin-top: -2rem;
+            max-width: 70%;
+            margin-right: auto;
+            margin-left: auto;
+            #FondoMenu img{
+                // margin: auto;
+                max-width: 100%;
+            }
+            ul{
+                list-style: none;
+                text-align: center;
+                margin-top: -2.5rem;
+                li{
+                    font-size: 1.2rem;
+                    display: inline-block;
+                    margin-right: 5em;
+                    // padding: 1rem;
+                    a{
+                        color: $EnlacesMorados;
+                        text-decoration: none;
+                        // text
+                    }
+                    a:hover{
+                        // text-decoration: dotted;
+                        color: $EnlaceVisitado;                    }
+                    a:visited{
+                        color: $EnlacesMorados;
+                    }
+                }
+            }
+        }
+    }
+}

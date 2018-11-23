@@ -1,0 +1,88 @@
+// $EnlacesMorados: #330066;
+// $EnlaceVisitado: #6633cc;
+// $body-bg: transparent;
+// *{
+//     margin: 0;
+//     // background-color: $EnlacesMorados;
+//     // width: 100%;
+//     body{
+//         margin-top: 0px auto 0px;
+//         font-family: Consolas;
+//         max-width: 100%;
+//         // margin: auto;
+//         background-color: $EnlacesMorados; 
+//         .contenido{
+//             background-color: #996699;
+//             margin: 0px auto 0px;
+//             padding-top: 0.3rem;
+//             max-width: 80%;
+//             nav{
+//                 margin: auto;
+//                 max-width: 90%;
+//                 #FondoMenu img{
+//                     max-width: 100%;
+//                 }
+//                 ul{
+//                     margin: -3.0rem 1rem 0 10rem;
+//                     padding: 0;
+//                     text-align: center;
+//                     li{
+//                         display: inline-block;
+//                         margin: 0 1.5rem 0 1.5rem;
+//                         font-size: 1.2rem;
+//                         a{
+//                             color: $EnlacesMorados;
+//                             text-decoration: none;
+//                             // margin-top: -2rem;
+//                             // text
+//                         }
+//                         a:hover{
+//                             // text-decoration: dotted;
+//                             color: $EnlaceVisitado;                    }
+//                         a:visited{
+//                             color: $EnlacesMorados;
+//                         }
+//                     }
+//                     li.Logo{
+//                         // margin-left: 0px;
+//                     }
+//                 }
+
+//             }
+
+//             // .cuerpo{
+//             //     #ArticuloDate{
+//             //         display: inline-block;
+//             //         // background-image: url("img/FondoDate.png");
+//             //         background: url("img/FondoDate.png") no-repeat center center fixed; 
+//             //         -webkit-background-size: cover;
+//             //         -moz-background-size: cover;
+//             //         -o-background-size: cover;
+//             //         background-size: cover;
+//             //     }
+//             //     #ArticuloContenido{
+//             //         display: inline-block;
+//             //         background-color: #ffffcc;
+//             //         border-radius: 1.2rem;
+//             //     }
+//             // }
+//         }
+//     }
+// }
+*{
+    font-family: Consolas;
+    .menuInicio{
+        background-color: #ccccff;
+        a>img{
+            width: 10rem;
+        }
+        .navbar{
+            .nav-link{
+            }
+        }
+        #navbarSupportedContent{
+            // text-align: center;
+            // margin: auto;
+        }
+    }
+}

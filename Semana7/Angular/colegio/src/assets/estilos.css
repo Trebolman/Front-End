@@ -1,0 +1,7 @@
+.disponible{
+    background: greenyellow;
+}
+.noDisponible{
+    background: red;
+    text-decoration: underline;
+}

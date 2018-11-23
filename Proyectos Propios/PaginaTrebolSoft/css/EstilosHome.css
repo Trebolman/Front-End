@@ -1,0 +1,41 @@
+* {
+  margin: 0; }
+
+.btnMenu {
+  padding: 1.2rem; }
+
+body {
+  font-family: Consolas;
+  width: 100%;
+  height: 620px; }
+  body header {
+    box-sizing: border-box;
+    max-width: 100%; }
+    body header #imagenCabecera img {
+      max-width: 100%; }
+    body header .titulo {
+      text-align: center; }
+    body header nav {
+      margin-top: -90px;
+      max-width: 70%;
+      margin-right: auto;
+      margin-left: auto; }
+      body header nav #FondoMenu img {
+        max-width: 100%; }
+      body header nav ul {
+        list-style: none;
+        text-align: center;
+        margin-top: -2.5rem; }
+        body header nav ul li {
+          font-size: 1.2rem;
+          display: inline-block;
+          margin-right: 5em; }
+          body header nav ul li a {
+            color: #330066;
+            text-decoration: none; }
+          body header nav ul li a:hover {
+            color: #6633cc; }
+          body header nav ul li a:visited {
+            color: #330066; }
+
+/*# sourceMappingURL=EstilosHome.css.map */

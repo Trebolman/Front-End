@@ -1,0 +1,6 @@
+* {
+  font-family: Consolas; }
+  * .menuInicio {
+    background-color: #ccccff; }
+    * .menuInicio a > img {
+      width: 10rem; }
