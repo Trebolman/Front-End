@@ -43,4 +43,15 @@
   </a>
 </div> -->
 
-<p>Danielito</p>
+<div *ngIf = "alumnoSeleccionado">
+  <h2>Alumno seleccionado => {{alumnoSeleccionado.alu_nom | uppercase}}</h2>
+  <span><strong>ID: </strong>{{alumnoSeleccionado.alu_id}}</span><br>
+  <span><strong>Edad: </strong>{{alumnoSeleccionado.alu_edad}}</span><br>
+  <span><strong>Codigo: </strong>{{alumnoSeleccionado.alu_cod}}</span><br>
+</div>
+
+<ul  class="alumnos">
+  <li *ngFor = "let alumno of alumnos; let i = index" (click) = "onSelect(alumno)" [class.seleccionado] = "alumno === alumnoSeleccionado">
+    <span class="caja">{{i}}</span>{{alumno.alu_nom+" "+alumno.alu_ape}}
+  </li>
+</ul>
