@@ -42,16 +42,31 @@
     <span class="sr-only">Next</span>
   </a>
 </div> -->
-
+<div *ngIf = "bExiste">
+  El alumno existe
+</div>
+<div *ngIf = "!bExiste">
+  El alumno no existe
+</div>
 <div *ngIf = "alumnoSeleccionado">
   <h2>Alumno seleccionado => {{alumnoSeleccionado.alu_nom | uppercase}}</h2>
   <span><strong>ID: </strong>{{alumnoSeleccionado.alu_id}}</span><br>
   <span><strong>Edad: </strong>{{alumnoSeleccionado.alu_edad}}</span><br>
   <span><strong>Codigo: </strong>{{alumnoSeleccionado.alu_cod}}</span><br>
 </div>
+<hr>
+<div *ngIf = "alumnoSeleccionado">
+  <label for="">Nombre: </label>
+  <input type="text" [(ngModel)] = "alumnoSeleccionado.alu_nom" placeholder="nombre">  
+</div>
+
+<label for="">Nuevo alumno: </label>
+<input type="text" [(ngModel)] = "nuevoNombre" placeholder="Coloque nuevo nombre" (keyup.enter) = "agregarNuevoAlumno()">
 
 <ul  class="alumnos">
   <li *ngFor = "let alumno of alumnos; let i = index" (click) = "onSelect(alumno)" [class.seleccionado] = "alumno === alumnoSeleccionado">
     <span class="caja">{{i}}</span>{{alumno.alu_nom+" "+alumno.alu_ape}}
+    <!-- <a (click) = "verMasAlumno(alumno.alu_cod)">Ver mas...></a> -->
+    <button (click) = "verMasAlumno(alumno.alu_cod)">Ver mas></button>
   </li>
 </ul>

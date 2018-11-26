@@ -4,10 +4,10 @@
 <!-- <curso></curso> -->
 <!-- <img src="../assets/face.png" alt=""> -->
 <nav>
-    <a [routerLink]="['/']">Inicio</a>
+    <a [routerLink]="['/inicio']" [routerLinkActive] = "['activo']">Inicio</a>
     &nbsp;
-    <a [routerLink]="['/alumno']">Alumnos</a>
+    <a [routerLink]="['/alumno']" [routerLinkActive] = "['activo']">Alumnos</a>
     &nbsp;
-    <a [routerLink]="['/curso']">Cursos</a>
+    <a [routerLink]="['/curso']" [routerLinkActive] = "['activo']">Cursos</a>
 </nav>
 <router-outlet></router-outlet>

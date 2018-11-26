@@ -18,7 +18,23 @@ const appRoutes:Routes = [
         component: AlumnoComponent
     },
     {
+        path: 'alumno/:codigo',
+        component: AlumnoComponent
+    },
+    {
+        path: 'alumno/:codigo/:nombre',
+        component: AlumnoComponent
+    },
+    {
         path: 'curso',
+        component: CursoComponent
+    },
+    {
+        path: 'curso/:nombre',
+        component: CursoComponent
+    },
+    {
+        path: 'curso/:nombre/:edad',
         component: CursoComponent
     },
     {
