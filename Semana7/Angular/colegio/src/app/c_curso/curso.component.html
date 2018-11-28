@@ -2,7 +2,7 @@
 <input type="text" [(ngModel)] = "titulo" (blur) = "onBlur()" (keyup) = "onKeyUp()">
 <button (click) = "mostrarTitulo()">Click para mostrar</button>
 <hr>
-<div class="container text-center">
+<!-- <div class="container text-center"> -->
     <div *ngIf = "cursos.length > 0">
         <table border="1">
             <thead>
@@ -49,4 +49,4 @@
         </table>
     </div>
 
-</div>
+<!-- </div> -->

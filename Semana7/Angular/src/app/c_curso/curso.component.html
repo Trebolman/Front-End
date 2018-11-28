@@ -1,0 +1,52 @@
+
+<h2>{{titulo}}</h2>
+<input type="text" [(ngModel)]="titulo" (blur)="onBlur()" (keyup.enter)="onKeyUp()">
+<button (click)="mostrarTitulo()">Click</button>
+<br>
+<br>
+<div *ngIf="cursos.length > 0"> 
+    <table border="1">
+        <thead>
+            <th>#</th>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Creditos</th>
+            <th>Estado</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let curso of cursos; let i = index">
+                <td>{{i}}</td>
+                <td>{{curso.cur_id}}</td>
+                <td>{{curso.cur_nom}}</td>
+                <td [ngSwitch]="curso.cur_cre">
+                    <span *ngSwitchCase = "5" [ngStyle]="{
+                                                            'background':'red'
+                                                         }">
+                        {{curso.cur_cre}}
+                    </span>
+                    <span *ngSwitchCase = "4" [style.background] ="'yellow'">
+                        {{curso.cur_cre}}
+                    </span>
+                    <span *ngSwitchDefault>
+                        <span *ngIf = "curso.cur_cre < 4" [style.background] ="'green'">
+                            {{curso.cur_cre}}
+                        </span>
+                        <span *ngIf = "curso.cur_cre > 5" [style.background] ="'#ccc'">
+                            {{curso.cur_cre}}
+                        </span>
+                    </span>
+
+                </td>
+                <td>
+                    <span *ngIf="curso.cur_est" [ngClass]="'disponible'">Disponible</span>
+                    <span *ngIf="!curso.cur_est" [ngClass]="'nodisponible'">No Disponible</span>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+               <td colspan="5">FIN DE LA TABLA JOVEN</td> 
+            </tr>
+        </tfoot>
+    </table>
+</div>

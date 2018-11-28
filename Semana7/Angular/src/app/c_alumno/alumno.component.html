@@ -1,0 +1,29 @@
+<div *ngIf="bExiste">
+    EL ALUMNO EXISTE
+</div>
+<div *ngIf="!bExiste">
+    EL ALUMNO NO EXISTE
+</div>
+
+<div *ngIf="alumnoSeleccionado">
+    <h2>Alumno Seleccionado => {{alumnoSeleccionado.alu_nom | uppercase}}</h2>
+    <span><strong> ID: </strong>{{alumnoSeleccionado.alu_id}}</span><br>
+    <span><strong> Edad: </strong>{{alumnoSeleccionado.alu_edad}}</span><br>
+    <span><strong> Codigo: </strong>{{alumnoSeleccionado.alu_cod}}</span><br>
+</div>
+<hr>
+<div *ngIf="alumnoSeleccionado">
+    <label>Nombre:</label>
+    <input type="text" [(ngModel)]="alumnoSeleccionado.alu_nom" placeholder="nombre">
+</div>
+
+<label>Nuevo Alumno:</label>
+<input type="text" [(ngModel)]="nuevoNombre" placeholder="coloque el nuevo nombre" (keyup.enter)="agregarNuevoAlumno()">
+
+<hr>
+<ul class="alumnos" >
+    <li *ngFor="let alumno of alumnos" (click)="onSelect(alumno)" [class.seleccionado]="alumno === alumnoSeleccionado">
+        <span class="caja">{{alumno.alu_id}}</span>{{alumno.alu_nom +" "+alumno.alu_ape}}
+        <button (click)="verMasAlumno(alumno.alu_cod)">Ver Mas...</button>
+    </li>
+</ul>

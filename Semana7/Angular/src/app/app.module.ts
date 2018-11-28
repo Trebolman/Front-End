@@ -1,23 +1,25 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-
-import {routing, appRoutingProviders} from './app.routing';
+import { FormsModule} from '@angular/forms';
+import { routing, appRoutingProviders} from './app.routing';
 import { HttpClientModule } from '@angular/common/http';
 
+
 import { AppComponent } from './app.component';
-import { AlumnoComponent } from './c_alumno/alumno.component';
 import { CursoComponent } from './c_curso/curso.component';
+import { AlumnoComponent } from './c_alumno/alumno.component';
 import { InicioComponent } from './c_inicio/inicio.component';
-import {UserComponent} from './c_user/user.component'
+import { UserComponent } from './c_user/user.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlumnoComponent,
     CursoComponent,
+    AlumnoComponent,
     InicioComponent,
-    UserComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,9 @@ import {UserComponent} from './c_user/user.component'
     routing,
     HttpClientModule
   ],
-  providers: [appRoutingProviders],
+  providers: [
+    appRoutingProviders
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -6,12 +6,17 @@ import {Routes, RouterModule} from '@angular/router';
 import {InicioComponent} from './c_inicio/inicio.component'
 import {AlumnoComponent} from './c_alumno/alumno.component'
 import {CursoComponent} from './c_curso/curso.component'
+import {UserComponent} from './c_user/user.component'
 
 // Arreglo de rutas
 const appRoutes:Routes = [
     {
         path: 'inicio',
         component: InicioComponent
+    },
+    {
+        path: 'user',
+        component: UserComponent
     },
     {
         path: 'alumno',

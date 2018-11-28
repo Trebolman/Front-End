@@ -1,0 +1,12 @@
+<h1>COMPONENTE DE USERS</h1>
+<div *ngIf="janet">
+    Nombre: {{janet.first_name}}
+    <br>
+    Apellido: {{janet.last_name}}
+    <br>
+    <img src="{{janet.avatar}}" alt="">
+</div>
+<div *ngIf="!janet">
+    CARGANDO.................
+</div>
+
